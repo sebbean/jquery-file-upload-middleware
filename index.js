@@ -70,7 +70,8 @@ JqueryFileUploadMiddleware.prototype.prepareOptions = function (options) {
         minFileSize: 1,
         maxFileSize: 10000000000, // 10 GB
         acceptFileTypes: /.+/i,
-        imageTypes: /\.(gif|jpe?g|png)$/i,
+        imageTypes: /\.(gif|jpe?g|png|mp4)$/i,
+        videoTypes: /\.(mp4|mov|wmv|avi)$/i,
         imageVersions: {
 //            thumbnail: {
 //                width: 80,
